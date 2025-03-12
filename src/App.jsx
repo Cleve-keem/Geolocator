@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="app">
+      <h2>handsome</h2>
       <button onClick={getLocation}>Get my Location</button>
       {isLoading && <p>Loading location...</p>}
       {error && <p>{error}</p>}
@@ -27,5 +28,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
