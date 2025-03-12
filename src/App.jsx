@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="app">
+      <p>hello guys</p>
       <button onClick={getLocation}>Get my Location</button>
       {isLoading && <p>Loading location...</p>}
       {error && <p>{error}</p>}
